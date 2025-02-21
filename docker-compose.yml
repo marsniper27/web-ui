@@ -9,7 +9,7 @@ services:
     ports:
       - "7788:7788"  # Gradio default port
       - "6080:6080"  # noVNC web interface
-      - "5901:5901"  # VNC port
+      - "5903:5901"  # VNC port
       - "9222:9222"  # Chrome remote debugging port
     environment:
       - OPENAI_ENDPOINT=${OPENAI_ENDPOINT:-https://api.openai.com/v1}
