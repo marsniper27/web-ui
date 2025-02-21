@@ -2,7 +2,7 @@ services:
   browser-use-webui:
     platform: linux/amd64
     build:
-      context: .
+      context: /Hdds/Web_UI/web-ui
       dockerfile: ${DOCKERFILE:-Dockerfile}
       args:
         TARGETPLATFORM: ${TARGETPLATFORM:-linux/amd64}
